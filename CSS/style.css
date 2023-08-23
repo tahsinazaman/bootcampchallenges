@@ -53,6 +53,10 @@ article img {
   margin-bottom: 2%;
 }
 
+.h1 {
+  color: #E54847,
+}
+
 p {
   font-size: 23px;
   font-weight: lighter;
@@ -61,30 +65,54 @@ p {
   line-height: 1.5;
 }
 
-footer {
-  padding: 40px;
-  text-align: center;
+
+
+#text {
+text-align: center;
+margin-bottom: 100px;
+}
+
+#box {
+margin-top: 100px;
+}
+
+/* #design:hover{
+  color: blue;
+} */
+
+/* #travel:hover{
+  color: yellow;
+} */
+
+/* #love:hover{
+  color: green;
+} */
+
+#myself {
+  color: #E54847;
 }
 
 
-.text {
-  align-self: center;
-}
-
-footer li {
-  padding: 8px;
-  align-items: center;
-}
 
 footer ul {
   display: flex;
   font-size: 26px;
   font-weight: lighter;
+  align-items: center;
   color: #E54847;
-  justify-content:space-evenly;
   padding-top: 20px;
   list-style: none;
   cursor: pointer;
+}
+
+footer {
+  padding: 40px;
+  text-align: center;
+}
+
+footer li {
+  padding: 8px;
+text-align: center;
 }
 
 
@@ -92,6 +120,10 @@ footer ul {
   font-size:48px;
 }
 
+#center{
+ width: 100%;
+ margin: 0 auto;
+} 
 @media only screen
   and (min-width: 320px)
   and (max-width: 680px)
